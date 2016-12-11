@@ -20,8 +20,7 @@
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
             <scope>provided</scope>
-        </dependency>
-       
+        </dependency>       
        
         <!-- JUnit [for Testing] -->
         <dependency>
@@ -35,7 +34,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
-            <version>1.4.1.RELEASE</version>
+            <version>1.4.5.RELEASE</version>
         </dependency>
         
         <!-- Spring Web MVC -->        
@@ -43,6 +42,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>4.3.4.RELEASE</version>
+        </dependency>
+        
+        <!-- MySQL Java JDBC Connector -->        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.40</version>
         </dependency>
     </dependencies>
 
